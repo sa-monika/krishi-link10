@@ -3,10 +3,10 @@ import { Link } from "react-router";
 
 const Crop = ({ singleCrop }) => {
   return (
-    <div className="bg-white rounded-xl shadow-xl">
-      <div className="p-8 flex-row">
+    <div className="bg-white rounded-sm shadow-xl">
+      <div className="p-6 flex-row">
         <img
-          className="flex-1 w-[164px] h-[150px] mx-auto bg-white"
+          className="flex-1 w-[200px] h-[150px] mx-auto bg-white rounded-sm"
           src={singleCrop.image}
         />
         <p className="flex-1 my-4 font-bold text-[25px] text-center">
