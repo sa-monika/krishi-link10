@@ -5,7 +5,7 @@ const AgroNews = () => {
     <div className="mb-20">
       {/* blogs  */}
       <div className="w-11/12 mx-auto mt-20">
-        <h1 className="font-bold text-5xl  mb-15">Agro News or Blogs</h1>
+        <h1 className="font-bold text-4xl  mb-10">Agro News or Blogs</h1>
         <div className="flex flex-col md:flex-row gap-8 justify-evenly ">
           {/* card */}
 

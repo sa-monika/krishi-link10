@@ -13,7 +13,7 @@ const Home = () => {
     <div className=" mx-auto">
       <Hero></Hero>
       <div className="w-11/12 mx-auto mt-20">
-        <h1 className="font-bold text-5xl  mb-15">Latest Crop Posts</h1>
+        <h1 className="font-bold text-4xl mb-10">Latest Crop Posts</h1>
 
         <Latest data={data}></Latest>
 
@@ -31,7 +31,7 @@ const Home = () => {
       {/* Reviews  */}
 
       <div className="w-11/12 mx-auto mt-20">
-        <h1 className="font-bold text-5xl text-right mb-15">Reviews</h1>
+        <h1 className="font-bold text-4xl text-right mb-10">Reviews</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-20">
           {/* card */}
           <div className="bg-white shadow-xl rounded-xl">

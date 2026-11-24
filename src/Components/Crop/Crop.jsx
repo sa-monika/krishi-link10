@@ -3,17 +3,17 @@ import { Link } from "react-router";
 
 const Crop = ({ singleCrop }) => {
   return (
-    <div className="bg-white rounded-sm shadow-xl">
+    <div className="bg-white rounded-sm shadow-xl ">
       <div className="p-6 flex-row">
         <img
           className="flex-1 w-[200px] h-[150px] mx-auto bg-white rounded-sm"
           src={singleCrop.image}
         />
-        <p className="flex-1 my-4 font-bold text-[25px] text-center">
+        <p className="flex-1 my-4 font-medium text-[25px] text-center">
           {singleCrop.name}
         </p>
         <div className="flex-1 ">
-          <div className="flex-row justify-between  items-center text-[18px] font-bold  ">
+          <div className="flex-row justify-between  items-center text-[17px] font-bold  ">
             <p>
               Type : <span className="font-semibold"> {singleCrop.type}</span>
             </p>

@@ -8,7 +8,7 @@ const Works = () => {
     <div>
       {/* How it works  */}
       <div className="w-11/12 mx-auto mt-20">
-        <h1 className="font-bold text-5xl text-right mb-15">How It Works</h1>
+        <h1 className="font-bold text-4xl text-right mb-10">How It Works</h1>
         <div className="flex flex-col md:flex-row gap-8 justify-evenly ">
           {/* card */}
           <div className="bg-white shadow-xl rounded-xl flex-1">
